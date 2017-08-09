@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teori"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sejarah"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.id.sejarahislamindonesia.teori">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="40px"
+                android:text="1. Teori Gujarat"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto2"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/guzarat"
+                />
+            <TextView
+                android:text="Teori gujarat dipelopori oleh ahli sejarah yang bernama Snouck Hurgronje, menurutnya agama Islam datang ke Indonesia didakwahkan oleh para pedagang sekaligus mubaligh Gujarat di abad ke-13 M.
+"
+                android:textSize="10pt"
+                android:textColor="#eff2ee"
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:textSize="40px"
+                android:text="2. Teori Persia"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto3"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/persia"/>
+            <TextView
+                android:text="Seorang ahli yang bernama P.A Husein Hidayat mempelopori teori ini, dia menyatakan bahwa agama Islam dibawa oleh pedagang sekaligus mubalogh Persia (Iran), hal ini didasarkan pada kesamaan antara kebudayaan islam di Indonesia dengan kebudayaan Islam di Persia."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="3. Teori Mekkah"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto4"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/mekah"/>
+            <TextView
+                android:text="Teori ini menyebutkan bahwa agama Islam masuk di Indonesia dibawa langsung oleh para pedagang Mekkah, teori ini dilandaskan pada satu berita dari China yang menyebutkan bahwa pada abad ke-7 telah ada perkampungan muslim di pantai barat Sumatera."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                tools:fontFamily="casual" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

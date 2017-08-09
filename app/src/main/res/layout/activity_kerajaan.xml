@@ -1,0 +1,251 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_walisongo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sejarah"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.id.sejarahislamindonesia.kerajaan">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="40px"
+                android:text="1. Kerajaan Perlak"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto3"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/perlak"/>
+            <TextView
+                android:text="Kerajaan Islam yang pertama kali berdiri di Sumatra dan tanah air adalah Kerajaan Perlak (Peureula). Kerajaan Perlak ini berdiri pada pertengahan abad IX dengan raja pertamanya bernama Alauddin Syah. Perlak pada saat itu merupakan kota dagang penyedia lada paling terkenal. Pada akhir abad XII Kerajaan Perlak akhirnya mengalami kemunduran."
+                android:textSize="10pt"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:textSize="40px"
+                android:text="2. Kerajaan Samudra
+    Pasai"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto4"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pasai"/>
+            <TextView
+                android:text="Kerajaan Samudra Pasai yang merupakan kerajaan kembar. Kerajaan ini terletak di pesisir timur laut Aceh Kabupaten Lhok Seumawe atau Aceh Utara kini. Kemunculannya sebagai kerajaan Islam diperkirakan awal atau pertengahan abad ke-13 M,  pendiri dan raja pertama  kerajaan ini adalah Malik al-Saleh, sebagai hasil dari proses islamisasi daerah pantai yang pernah disinggahi pedagang-pedagang muslim sejak abad ke-7, ke-8 M, dan seterusnya. Daerah yang diperkirakan masyarakatnya sudah banyak yang memeluk agama Islam adalah Perlak, sepeti yang kita ketahui berita dari Marco Polo yang singgah di daerah itu pada tahun 1292."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="3. Kerajaan Aceh Darussalam"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto5"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/aceh"/>
+            <TextView
+                android:text="Kerajaan Aceh terletak di daerah yang sekarng dikenal dengan nama Kabupaten Aceh Besar. Di sini pula terletak ibu kotanya. Dan belum diketahui pasti kapan kerajaan ini berdiri. Anas Machmud berpendapat, kerajaan Aceh berdiri pada abad ke-15 M, di atas puing-puing kerajaan Lamuri, oleh Mujaffar Syah (1465-1497 M). Dialah yang membangun kota Aceh Darussalm. Puncak kejayaan Kerajaan Aceh terjadi pada masa pemerintahan Sultan Iskandar Muda. Pada saat itu wilayah kekuasaan Aceh sangat luas. Kerajaan Aceh juga telah menjalin hubungan dengan para pemimpin Islam di kawasan Arab sehingga dikenal dengan sebutan Serambi Mekah. Puncak hubungan tersebut terjadi pada masa kekhalifahan Usmaniyah."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:textSize="40px"
+                android:text="4. Kerajaan Demak"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto6"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/demak"/>
+            <TextView
+                android:text="Perkembangan Islam di Jawa bersamaan waktunya dengan melemahnya posisi Raja Majapahit. Hal itu memberi peluang kepada pengusaha-pengusaha islam di pesisir untuk membangun pusat kekuasaan yang independen. Dibawah pimpinan Sunan Ampel Denta, wali songo bersepakat mengangkat Raaden Patah menjadi raja pertama kerajaan Demak, kerajaan Islam pertama di Jawa, dengan gelar Senopati Jimbun Ngabdurahman Panembahan Palembang Sayidina Panatagama. Sebelumnya Demak yang masih bernama Bintoro merupakan daerah vasal Majapahit yang diberikan Raja Majapahit kepada Radeen Patah.
+       Maka berdiri kerajaan Islam pertama di Pulau Jawa yaitu Kerajaan Demak. Kerajaan ini didirikan oleh Raden Patah pada tahun 1478. Pada saat itu ulama memegang peranan yang penting dalam pemerintahan misalnya dengan diangkatnya Sunan Kalijaga dan Ki Wanalapa sebagai penasihat kerajaan. Kerajaan Demak mengalami masa keemasan pada masa pemerintahan Sultan Trenggono. Pada tahun 1527 ketika armada Portugis datang untuk mendirikan benteng di Sunda Kelapa, Kerajaan Demak berhasil memukul mundur. Pada masa kekuasaan dipegang oleh Jaka Tingkir, pusat pemerintahannya dipindah dari Demak menuju Pajang."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="5. Kerajaan Cirebon"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto7"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cirebon"/>
+            <TextView
+                android:text="Kesultanan Cirebon merupakan kerajaan Islam pertama di daerah Jawa Barat. Kerajaan ini didirikan oleh Sunan Gunung Jati. Ia diperkirakan lahir pada tahun 1448 M dan wafat pada tahun 1568 M, dalam usia 120 tahun. Kedudukannya sebagai Wali Songo mendapatkan penghormatan dari raja-raja di Jawa, seperti Demak dan Pajang. Setelah Cirebon resmi berdiri sebuah Kerajaan Islam yang merdeka dari kekuasaan Kerajaan Pajajaran, Sunan Gunung Jati berusaha meruntuhkan Kerajaan Pajajaran yang belum menganut ajaran Islam."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="6. Kerajaan Banten"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto8"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/banten"/>
+            <TextView
+                android:text="Sunda Kelapa adalah pelabuhan yang pentig di Muara Sungai Ciliwung. Kedudukannya lebih penting dari pada dua kota pelabuhan Pajajaran lainnya, yakni Banten dan Cirebon. Setelah Fatahillah yang juga menantu Sunan Gunung Jati berhasil menaklukkan Portugis di Sunda Kelapa, Banten dikembangkan sebagai pusat perdagangan sekaligus tempat penyiaran agama. Setelah Sunan Gunung Jati menaklukan Banten pada tahun 1525 M. Ia menyerahkan kekuasaan kepada putranya yang bernama Sultan Hasanuddin. Sultan Hasanuddin kemudian menikah dengan Putri Demak dan diresmikam menjadi Panembahan Bnten pda tahun 1552 M. Ia meneruskan usaha ayahnya dalam meluaskan daerah Islam, yaitu Kelampung dan Sumatera Selatan. Pada tahun 1527 M, ia berhasil menaklukan Sunda Kelapa. Banten juga berhasil merdeka dan melepaskan diri dari Kerajaan Demak. Kerajaan Banten ini mengalami kemajuan yang sangat penting pada masa kekuasaan Ki Ageng Tirtayasa."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="6. Kerajaan Ternate"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto9"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ternate"/>
+            <TextView
+                android:text="Kerajaan Ternate berdiri pada abad ke-13 di Maluku Utara, dengan ibu kotanya di Sampalu. Rajanya bernama Sultan Zaenal Abidin, ia belajar agama Islam di Gegesik. Kerajaan Ternate merupakan penghasil rempah-rempah yang besar di Nusantara. Pada abad ke-15, kerajaan ternate menjadi kerajaan terpenting di Maluku. Kerajaan Ternate mencapai kejayaannya pada masa pemerintahan Sultan Baabullah. Pada waktu itu wilayah kekuasaan Ternate sampai ke Philipina Selatan. Untuk menjaga wilayah keamanannya, ia memiliki 100 kapal kora-kora untuk menjaga wilayahnya. Pada masa itu Sultan Baabullah mendapat gelar seabagai “Yang Dipertuan di 72 pulau”. Ia juga dikenal sebagai pahlawan yang gigih menentang penjajahan Portugis. Dengan kegigiannya ia bersama rakyatnya nerhasil mengusir Portugis dari Maluku pada tahun 1795."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="7. Kerajaan Tidore"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto10"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tidore"/>
+            <TextView
+                android:text="Seperti halnya Kerajaan Ternate, Kerajaan Tidore pun merupakan penghasil cengkeh yang besar. Berkat hasil cengkehnya itu kerajaan Tidore menjadi kerajaan yang maju. Raja yang terkenal di Kerajaan Tidore adalah Sultan Nuku. Pada masanya, kekuasan Tidore meliputi Halmahera, Seram, Kai, dan Irian Jaya. Pada mulanya kerajaan Ternate dengan Kerajaan Tidore hidup damai berdampingan. Namun sejak kedatangan Portugis , kedua kerajaan ini di adudombakan[25], setelah mengetahui bahwa Portugis ingin menguasai Maluku, akhirnya dua kerajaan ini bersatu dan mengusir Bangsa Portugis dari Maluku."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="7. Kerajaan Banjar"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto11"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/banjar"/>
+            <TextView
+                android:text="Pada abad ke-16, di pedaleman Kalimantan terdapat Kerajaan Nagaradaha (Kerajaan Daha). Banjarmasin merupakan slah satu wilayah kekuasaan kerajaan tersebut. Kerajaan Banjar merupakan kelanjutan dari Kerajaan Daha yang beragama Hindu yang dipimpin oleh Raja Sukarama. Adipai Banjarmasi yang bernama Raden Samudera berhasil menaklukan kerajaan Nagaradaha dengan bantuan Kerajaan Demak. Akhirnya berdirilah Kerajaan Banjar dengan Raden Samudera sebagai rajanya. Setelah masuk Islam ia bergelar Sultan Suryanullah. Islam pertama kali masuk ke Banjarmasin pada abad XVI. Saat itu proses islamisasinya sebagian besar dilakukan oleh Kerajaan Demak. Dalam waktu yang tidak cukup lama, bahkan Islam banyak dianut masyarakat dari suku Bugis di sungai bagian timur Kalimantan. Ulama yang sangat terkenal di kerajaan tersebut adalah Syeh Muhammad Arsyad al-Banjari."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

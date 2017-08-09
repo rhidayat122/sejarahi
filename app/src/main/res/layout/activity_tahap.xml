@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tahap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sejarah"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.id.sejarahislamindonesia.tahap">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="40px"
+                android:text="1. Perdagangan"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto3"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/perdagangan"/>
+            <TextView
+                android:text="Islam masuk ke Indonesia salah satunya melalui langkah-langkah perdagangan. Disebabkan karena orang-orang Melayu yang ada di Indonesia pada waktu itu berhubungan  dengan orang-orang arab di dalam hal perdagangan, sehingga mereka bisa dekat antara satu dengan yang lain. Jadi, pada saat pedagang arab menyebarkan syariat  Islam, orang melayu pun tidak susah untuk menerimanya.
+
+Walaupun Tidak cepat tetapi, orang Melayu sedikit demi sedikit mulai memeluk agama Islam dan menjalankan ajarannya. Setelah berdirinya kerajaan Islam Malaka dan kerajaan Samudra Pasai di Aceh, Islam makin kuat pada kala itu maka, makin ramailah pedangang-pedangang Arab dan juga ulama yang berkunjung ke Indonesia. Sambil berdakwah untuk meningkatkan amal ibadah mereka, mereka berdakwah sambil berbisnis."
+                android:textSize="10pt"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:textSize="40px"
+                android:text="2. Kultural"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto4"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/kulture"/>
+            <TextView
+                android:text="Yang dimaksud dengan penyebaran Islam dengan cara kultur adalah, penyebaran pemahaman Islam di Indonesia menggunakan sarana kebudayaan. Seperti yang pernah dilakukan oleh para wali songo di pulau Jawa. Sunan Kali Jaga pada di saat itu berdakwah menggunakan kesenian wayang kulit, beliau mengisi pementasan wayang yang umumnya isinya itu bertema ajaran Hindu, beliau tukar dengan sejarah dan ajaran Islam. Kemudian ada juga Sunan Muria berdakwah dengan Gamelannya. Sedangkan Sunan Giri berdakwah dengan menggunakan mainan anak-anak seperti cublak Suweng, Jalungan, Jamuran dan lain sebagainya. Para ulama ini cerdas sekali, mereka mempunyai pemahaman ajaran Islam dengan menggunakan bahasa yang kerap digunakan oleh masyarakat setempat. Kebetulan di saat itu warga Indonesia terutama yang ada di pulau Jawa, menyukai kesenian sebagai bagian dari kehidupan bermasyarakat."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:textSize="40px"
+                android:text="3. Pendidikan"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto5"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pendidikan"/>
+            <TextView
+                android:text="Salah satu langkah efketif masuknya pemahaman ajaran Islam pada saat itu lewat pendidikan, dan pesantren sebagai lembaga pendidikan yang paling strategis dalam berdakwah. Kebanyakan para ulama dan mubalig dalam menyebarkan Islam ke seluruh penjuru Indonesia adalah lulusan pesantren. Contohnya Datuk Ribandang yang dikenal sebagai lulusan dari pesantren milik Sunan Giri. Selain Datuk Ribandang, banyak santri-santri Sunan Giri yang menyebar ke pulau-pulau yang ada di Indonesia seperti Kangan, Haruku, Madura, Bawean sampai Nusa Tenggara. Sampai saat ini, ajaran Islam disebarluaskan ke seluruh Indonesia kebanyakan oleh lulusan pesantren denagan menggunakan metode yang baik da efektif."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:textSize="40px"
+                android:text="4. Kekuasaan Politik"
+                android:textStyle="bold"
+                android:background="#03581b"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content" ></TextView>
+
+            <ImageView
+                android:id="@+id/foto6"
+                android:layout_marginTop="20dp"
+                android:layout_width="271dp"
+                android:layout_height="200dp"
+                android:src="@drawable/politik"/>
+            <TextView
+                android:text="Penyebaran Islam di Indonesia juga tak terlepas dari dukungan para ulama. Contohnya di pulau Jawa, Kesultanan Demak dikenal sebagai pusat dakwah dan menjadi pelindung penyebaran agama Islam. Ada juga di pulau Sulawesi yakni Raja Gowa-Tolla yang menjadi pelindung bagi para ulama dalam menyebarkan ajaran Islam di sana. Para ulama dan penguasa dalam hal ini para raja saling berkomunikasi, tolong menolong dalam melindungi perkembangan dakwah Islam di Indonesia. Kekompakkan para ulama ini juga menjadi cikal bakal lahirnya negara Indonesia."
+                android:layout_width="wrap_content"
+                android:background="#03581b"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView2"
+                android:textSize="10pt"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
